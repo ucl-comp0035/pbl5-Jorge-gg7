@@ -1,0 +1,28 @@
+﻿Host city,Year,Country,Type,Start,End,Events,Sports,Countries,Participants (M),Participants (F),Participants
+Rome,1960,Italy,Summer,18-Sep,25-Sep,113,8,17,,,209
+Tokyo,1964,Japan,Summer,08-Nov,12-Nov,143,9,20,195,71,266
+Tel Aviv,1968,Israel,Summer,05-Nov,14-Nov,188,10,28,578,196,774
+Heidelberg,1972,Germany,Summer,02-Aug,11-Aug,188,10,41,654,268,922
+Ornskoldsvik,1976,Sweden,Winter,21-Feb,28-Feb,53,2,16,161,37,198
+Toronto,1976,Canada,Summer  ,04-Aug,12-Aug,448,13,41,1000,271,1271
+Geilo,1980,Norway,Winter,02-Feb,08-Feb,64,3,18,229,70,299
+Arnhem,1980,Netherlands,Summer,22-Jun,01-Jul,590,13,42,1225,428,1653
+Innsbruck,1984,Austria,Winter,15-Jan,21-Jan,107,3,21,325,94,419
+Stoke Mandeville & New York,1984,Great Britain,Summer,17-Jun,01-Aug,975,18,54,1569,536,2105
+Innsbruck,1988,Austria,Winter,18-Jan,25-Jan,97,4,22,300,77,377
+Seoul,1988,Republic of Korea,Summer,16-Oct,25-Oct,733,18,60,2370,671,3041
+Tignes Albertville,1992,France,Winter,25-Mar,02-Apr,79,3,24,288,77,365
+Barcelona,1992,Spain,Summer,05-Sep,16-Sep,489,16,84,2300,699,2999
+Lillehammer,1994,Norway,Winter,10-Mar,19-Mar,133,5,31,39,90,129
+Atlanta,1996,USA,Summer,16-Aug,25-Aug,519,19,104,2462,790,3252
+Nagano,1998,Japan,Winter,07-Mar,16-Mar,122,5,31,440,122,562
+Sydney,2000,Australia,Summer,23-Oct,31-Oct,550,19,123,2883,988,3871
+Salt Lake City,2002,USA,Winter,09-Mar,18-Mar,92,4,36,328,87,415
+Athens,2004,Greece,Summer,23-Sep,04-Oct,519,19,135,2600,1149,3749
+Torino,2006,Italy,Winter,12-Mar,21-Mar,58,5,38,375,99,474
+Beijing,2008,China,Summer,06-Sep,17-Sep,472,20,146,2585,1366,3951
+Vancouver,2010,Canada,Winter,12-Mar,21-Mar,64,5,44,381,121,502
+London,2012,Great Britain,Summer,29-Aug,09-Sep,530,20,164,2741,1502,4243
+Sochi,2014,Russia,,07-Mar,16-Mar,72,7,46,411,129,540
+Rio,2016,Brazil,Summer,07-Sep,18-Sep,528,22,160,2657,1670,4327
+PyeongChang,2018,Republic of Korea,,09-Mar,18-Mar,80,7,49,430,133,563
