@@ -9,9 +9,11 @@ if __name__ == '__main__':
 
     # 1. Create two new dataframes, one with winter data and one with summer data using .loc
     # Syntax will be `df.loc[df['Column'] condition]`. You can use conditions such as == (equals)
-
+    df_summer = df.loc[df['Type'] == 'Summer']
+    df_winter = df.loc[df['Type'] == 'Winter']
     # 2. Reset the index of each of the new dataframes e.g. df_summer.reset_index(drop=True, inplace=True)
-
+    df_summer.reset_index(drop=True, inplace=True)
+    df_winter.reset_index(drop=True, inplace=True)
     # 3. Create two line plots, for each x will be 'Year' and y will be the variable 'cols' (see line 8)
 
     # 4. Show the plots

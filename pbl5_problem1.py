@@ -14,3 +14,4 @@ if __name__ == '__main__':
     df = pd.read_csv('data/paralympics_prepared.csv', parse_dates=['Start', 'End'], dtype={'Year': str})
     set_pandas_display_options(df)
     # Add code here to print the stats returned by describe
+    print(df.describe())

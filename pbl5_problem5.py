@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     # 1. Sort the values by Type and Year
     # The syntax is `df.sort_values(["ColName1", "ColName2"], ascending=(Fale, True), inplace=True)`
-
+    
     # 2. Add two new columns that each contain the result of calculating the % of male and female participants (e.g.
     # Male/Total)
 
