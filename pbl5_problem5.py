@@ -24,14 +24,18 @@ if __name__ == '__main__':
 
     # 1. Sort the values by Type and Year
     # The syntax is `df.sort_values(["ColName1", "ColName2"], ascending=(Fale, True), inplace=True)`
-    
+    df.sort_values(["Type", "Year"], ascending=(True,True), inplace=True)
+
     # 2. Add two new columns that each contain the result of calculating the % of male and female participants (e.g.
     # Male/Total)
-
+    df['M%'] = df['Male'] / df['Total']
+    df['F%'] = df['Female'] / df['Total']
     # 3. Create a new column that combines Type and Year to use as the x-axis
+    df['Event'] = df['Type'] + df['Year']
 
     # 4. Create the stacked bar plot of the % for male and female
     # Syntax `df.plot.bar(x='ColName1', y=['ColName2', 'ColName3'], stacked=True)`
+    df.plot.bar(x='Event', y=['M%', 'F%'], stacked=True, xlabel='Paralympics Event')
 
     # The next line just ensures the x-axis labels are fully visible, you may need to adjust the value of 'bottom='
     plt.gcf().subplots_adjust(bottom=0.3)

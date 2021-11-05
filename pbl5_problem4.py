@@ -14,6 +14,15 @@ if __name__ == '__main__':
     # 2. Reset the index of each of the new dataframes e.g. df_summer.reset_index(drop=True, inplace=True)
     df_summer.reset_index(drop=True, inplace=True)
     df_winter.reset_index(drop=True, inplace=True)
+
     # 3. Create two line plots, for each x will be 'Year' and y will be the variable 'cols' (see line 8)
+    lp_winter = df_winter.plot.line(x='Year', y=cols, title='Winter', xticks=df_winter.index)
+    lp_winter.set_xticklabels(df_winter['Year'])
+    plt.xticks(rotation=90)
+
+    lp_summer = df_summer.plot.line(x='Year', y=cols, title='Summer', xticks=df_summer.index)
+    lp_summer.set_xticklabels(df_summer['Year'])
+    plt.xticks(rotation=90)
 
     # 4. Show the plots
+    plt.show()
