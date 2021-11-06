@@ -20,7 +20,7 @@ if __name__ == '__main__':
     cols = ['Year', 'Type', 'Participants (M)', 'Participants (F)', 'Participants']
     df = pd.read_csv('data/paralympics_prepared.csv', usecols=cols, dtype={'Year': str, 'Type': str})
     df.rename(columns={"Participants (M)": "Male", "Participants (F)": "Female", "Participants": "Total"}, inplace=True)
-    # line_chart_mf_ratio(df) # Uncomment to see the line chart version
+    line_chart_mf_ratio(df) # Uncomment to see the line chart version
 
     # 1. Sort the values by Type and Year
     # The syntax is `df.sort_values(["ColName1", "ColName2"], ascending=(Fale, True), inplace=True)`
